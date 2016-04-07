@@ -1,0 +1,25 @@
+{
+  "name": "mdtgen",
+  "version": "1.0.0",
+  "description": "MDTGen package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Martinovsky/MDTGen.git"
+  },
+  "keywords": [
+    "MDT"
+  ],
+  "author": "Logwin+Martinovsky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Martinovsky/MDTGen/issues"
+  },
+  "homepage": "https://github.com/Martinovsky/MDTGen#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
