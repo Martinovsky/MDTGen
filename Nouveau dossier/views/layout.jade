@@ -1,0 +1,26 @@
+doctype html
+html
+	head
+		title='MDTgen'
+		meta(name='viewport', content='width=device-width, initial-scale=1.0')
+		link(href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css', rel='stylesheet', media='screen')
+		link(rel='stylesheet', href='/stylesheets/style.css')
+	body
+	div.row
+		div.col-xs-12
+			nav(class="navbar navbar-inverse navbar-embossed", role="navigation")
+			div(class="navbar-header")
+				button(type="button", class="navbar-toggle", data-toggle="collapse", data-target="#navbar-collapse-01")
+					p Toggle navigation
+				a.navbar-brand(href="/campagne") Acceuil
+			div(class="collapse navbar-collapse", id="navbar-collapse-01")
+				ul(class="nav navbar-nav navbar-left")
+					li.dropdown
+						a.dropdown-toggle(data-toggle="dropdown", href="#") Lames du Cardinal
+						
+				
+				
+	block content
+
+	script(src='http://code.jquery.com/jquery.js')
+	script(src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js')
