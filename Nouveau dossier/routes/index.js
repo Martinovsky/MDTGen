@@ -41,4 +41,16 @@ router.get('/ping', function(req, res){
     res.status(200).send("pong!");
 });
 
+router.get('/create', function(req, res){
+	if (req.user)
+		res.render('create', { user : req.user });
+	res.redirect('/login');	
+});
+
+router.get('/list', function(req, res){
+	if (req.user)
+		res.render('list', { user : req.user });
+	res.redirect('/login');	
+});
+
 module.exports = router;
